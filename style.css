@@ -5,8 +5,85 @@
 
 header{
     background:#fff;
+    font-family: Helvetica;
+    font-weight:bold;
 }
 
 body{
     background:#1abc9c;
+    font-family: yuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+}
+
+nav{
+    padding: 8px 0;
+}
+
+nav a{
+    color:#777;
+}
+
+nav a:hover{
+    color:#5F5E5E;
+}
+
+nav h1{
+    margin:0;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.navbar {
+    margin-bottom:0;
+}
+
+.navbar-brand{
+    font-size:inherit;
+}
+
+.navbar-toggle .icon-bar{
+    background-color:#aaa;
+}
+
+.front{
+    text-align:center;
+    background:url('9011116378_7fb5dc9e88_k.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:50% 50%;
+    height:300px;
+    color:#fff;
+}
+
+.front h2{
+    padding-top:114px;
+    margin:0;
+    text-shadow:1px 1px 1px #444;
+    font-size: 48px;
+}
+
+.front p{
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro","メイリオ", Meiryo, sans-serif;
+    padding-top:24px;
+}
+
+#works{
+    text-align:center;
+}
+
+h3{
+    font-size:48px;
+    font-weight:bold;
+    color:#fff;
+}
+
+#about{
+    background:#16a085;
+    text-align:center;
+    
+}
+
+footer{
+    background:#fff;
+    font-size:64px;
+    text-align:center;
 }
