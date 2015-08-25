@@ -7,6 +7,7 @@ header{
     background:#fff;
     font-family: Helvetica;
     font-weight:bold;
+    padding: 8px 0;
 }
 
 body{
@@ -50,12 +51,12 @@ nav h1{
     background-repeat:no-repeat;
     background-size:cover;
     background-position:50% 50%;
-    height:300px;
+    height:460px;
     color:#fff;
 }
 
 .front h2{
-    padding-top:114px;
+    padding-top:200px;
     margin:0;
     text-shadow:1px 1px 1px #444;
     font-size: 48px;
@@ -68,22 +69,57 @@ nav h1{
 
 #works{
     text-align:center;
+    padding:36px 0;
 }
 
 h3{
     font-size:48px;
     font-weight:bold;
     color:#fff;
+    padding: 24px 0;
 }
 
 #about{
-    background:#16a085;
+    background:#22D6B3;
     text-align:center;
-    
+    padding:36px 0;    
+    color:#000;    
+}
+
+#about .container{
+    max-width:800px;
+}
+
+
+#about td,#about th{
+    padding:16px 0;
+    border:none;
+}
+
+td{
+    width: 310px;
+    text-align: left;
 }
 
 footer{
-    background:#fff;
-    font-size:64px;
+    background:#2c3e50;
+    font-size:24px;
+    color:#fff;
     text-align:center;
+    padding:128px 0;
+}
+
+
+#works .col-sm-6,#about .block{
+    padding:32px 0;
+}
+
+.face{
+height: 150px;
+    width: 150px;
+    background-color: #999;
+    margin: 0 auto;
+    border-radius: 100%;
+    color: #fff;
+    padding-top: 63px;    
 }
